@@ -1,0 +1,131 @@
+@media screen and (max-width: 1024px){
+    .container{
+        max-width: 737px;
+    }   
+    .action {
+        &__row {
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        &__item{
+            width: 737px;
+            height: 111px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-bottom: 35px;
+        }
+        &__menu {
+            width: 370px;
+            height: 111px;
+        }
+        &__menu-link {
+            color: red;
+            padding: 0 25px 0 0;
+        }   
+    }   
+    .item-2{
+        justify-content: flex-start;
+    }
+    .advantages{
+        margin: 145px 100px;
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        &__column {
+            flex: 0 1 50%;
+        }
+        &__item{
+            margin-bottom: 50px;
+        }
+        &__img{
+            margin-bottom: 20px;
+        }
+    }
+    .footer{
+        &__logo{
+            visibility: visible;
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container{
+        max-width: 290px;
+    }
+    .catalog{
+        &__column-title{
+            padding-top: 122px;
+            font-size: 24px;
+        }
+        &__column-paragraph{
+            font-size: 12px;
+        }
+        &__link{
+            margin-bottom: 123px;
+        }
+    }
+    .action {
+        margin-top: 70px;
+        &__item{
+            justify-content: center;
+        }
+        &__title{
+            margin-bottom: 60px;
+            font-size: 22px;
+        }
+        &__row{
+            display: flex;
+            flex-direction: column;
+        }
+        &__item{
+            width: 290px;
+            height: 222px;
+            align-items: flex-end;
+        }
+        &__menu-text{
+            font-size: 16px;
+        }
+    }
+    .advantages{
+        margin: 100px 15px;
+        &__row{
+            flex-direction: column;
+        }
+        &__item{
+            flex-direction: row;
+            flex: auto;
+            align-items: center;
+        }
+        &__inner{
+            margin-left: 20px;
+            flex-wrap: wrap;
+        }
+        &__inner-title{
+            font-size: 20px;
+            text-align: left;
+        }
+        &__inner-text{
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+    .footer{
+        &__logo{
+            visibility: visible;
+        }
+        &__row{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &__logo{
+            padding-top: 86px;
+            padding-bottom: 95px;
+        }
+        &__copyright{
+            padding-bottom: 95px;
+        }
+    }
+}
